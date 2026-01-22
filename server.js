@@ -1,7 +1,7 @@
 import app from "#app";
 import db from "#db/client";
 
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT ?? 5000;
 
 await db.connect();
 
